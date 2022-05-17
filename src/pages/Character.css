@@ -1,12 +1,12 @@
 .Character {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    padding: 2rem;
 }
 
 .CharacterContent {
     margin-left: 2rem;
 }
 .CharacterEpisode {
+    margin-left: 2rem;
     margin-top: 2rem;
 }

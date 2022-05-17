@@ -1,4 +1,3 @@
-import './App.css';
 import CharacterList from './pages/CharacterList';
 import Character from './pages/Character';
 import { Route, Routes } from 'react-router';

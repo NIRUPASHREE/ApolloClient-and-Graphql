@@ -9,14 +9,14 @@ export default function CharacterList() {
   const { error, data, loading } = useCharactersDisplay();
   
   if (loading) return <div>...loading....</div>
-  if( error) return <div>.....errroorrrrrr</div>
+  if( error) return <div>.....error</div>
 
   return <div className='CharacterList'>
     {data.characters.results.map(character => {
       return (
         <Link to={`/${character.id}`}>
           <br />
-          <img src={character.image} alt='sdsds' />
+          <img src={character.image} alt='character' />
           <div>{character.name}</div>
           <br />
         </Link>
